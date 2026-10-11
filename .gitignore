@@ -1,0 +1,7 @@
+# Playpedia — Created by Ferdiansyah Annora on 11/10/26.
+.DS_Store
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xcresult
