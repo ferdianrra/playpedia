@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D6879677307B4797004D1F9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6879661307B4796004D1F9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6879668307B4796004D1F9F;
+			remoteInfo = Playpedia;
+		};
+		D6879681307B4797004D1F9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6879661307B4796004D1F9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6879668307B4796004D1F9F;
+			remoteInfo = Playpedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6879669307B4796004D1F9F /* Playpedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playpedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6879676307B4797004D1F9F /* PlaypediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaypediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6879680307B4797004D1F9F /* PlaypediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaypediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D687966B307B4796004D1F9F /* Playpedia */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Playpedia;
+			sourceTree = "<group>";
+		};
+		D6879679307B4797004D1F9F /* PlaypediaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PlaypediaTests;
+			sourceTree = "<group>";
+		};
+		D6879683307B4797004D1F9F /* PlaypediaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PlaypediaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6879666307B4796004D1F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		D6879673307B4797004D1F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		D687967D307B4797004D1F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6879660307B4796004D1F9F = {
+			isa = PBXGroup;
+			children = (
+				D687966B307B4796004D1F9F /* Playpedia */,
+				D6879679307B4797004D1F9F /* PlaypediaTests */,
+				D6879683307B4797004D1F9F /* PlaypediaUITests */,
+				D687966A307B4796004D1F9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D687966A307B4796004D1F9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6879669307B4796004D1F9F /* Playpedia.app */,
+				D6879676307B4797004D1F9F /* PlaypediaTests.xctest */,
+				D6879680307B4797004D1F9F /* PlaypediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6879668307B4796004D1F9F /* Playpedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6879688307B4797004D1F9F /* Build configuration list for PBXNativeTarget "Playpedia" */;
+			buildPhases = (
+				D6879665307B4796004D1F9F /* Sources */,
+				D6879666307B4796004D1F9F /* Frameworks */,
+				D6879667307B4796004D1F9F /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				D687966B307B4796004D1F9F /* Playpedia */,
+			);
+			name = Playpedia;
+			productName = Playpedia;
+			productReference = D6879669307B4796004D1F9F /* Playpedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6879675307B4797004D1F9F /* PlaypediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D687968B307B4797004D1F9F /* Build configuration list for PBXNativeTarget "PlaypediaTests" */;
+			buildPhases = (
+				D6879672307B4797004D1F9F /* Sources */,
+				D6879673307B4797004D1F9F /* Frameworks */,
+				D6879674307B4797004D1F9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6879678307B4797004D1F9F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6879679307B4797004D1F9F /* PlaypediaTests */,
+			);
+			name = PlaypediaTests;
+			productName = PlaypediaTests;
+			productReference = D6879676307B4797004D1F9F /* PlaypediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D687967F307B4797004D1F9F /* PlaypediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D687968E307B4797004D1F9F /* Build configuration list for PBXNativeTarget "PlaypediaUITests" */;
+			buildPhases = (
+				D687967C307B4797004D1F9F /* Sources */,
+				D687967D307B4797004D1F9F /* Frameworks */,
+				D687967E307B4797004D1F9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6879682307B4797004D1F9F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6879683307B4797004D1F9F /* PlaypediaUITests */,
+			);
+			name = PlaypediaUITests;
+			productName = PlaypediaUITests;
+			productReference = D6879680307B4797004D1F9F /* PlaypediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6879661307B4796004D1F9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					D6879668307B4796004D1F9F = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					D6879675307B4797004D1F9F = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = D6879668307B4796004D1F9F;
+					};
+					D687967F307B4797004D1F9F = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = D6879668307B4796004D1F9F;
+					};
+				};
+			};
+			buildConfigurationList = D6879664307B4796004D1F9F /* Build configuration list for PBXProject "Playpedia" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6879660307B4796004D1F9F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D687966A307B4796004D1F9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6879668307B4796004D1F9F /* Playpedia */,
+				D6879675307B4797004D1F9F /* PlaypediaTests */,
+				D687967F307B4797004D1F9F /* PlaypediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6879667307B4796004D1F9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D6879674307B4797004D1F9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D687967E307B4797004D1F9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6879665307B4796004D1F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		D6879672307B4797004D1F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		D687967C307B4797004D1F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6879678307B4797004D1F9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6879668307B4796004D1F9F /* Playpedia */;
+			targetProxy = D6879677307B4797004D1F9F /* PBXContainerItemProxy */;
+		};
+		D6879682307B4797004D1F9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6879668307B4796004D1F9F /* Playpedia */;
+			targetProxy = D6879681307B4797004D1F9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6879686307B4797004D1F9F /* Debug configuration for PBXProject "Playpedia" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3SFYM6B225;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6879687307B4797004D1F9F /* Release configuration for PBXProject "Playpedia" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3SFYM6B225;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6879689307B4797004D1F9F /* Debug configuration for PBXNativeTarget "Playpedia" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SFYM6B225;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.Playpedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D687968A307B4797004D1F9F /* Release configuration for PBXNativeTarget "Playpedia" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SFYM6B225;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.Playpedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D687968C307B4797004D1F9F /* Debug configuration for PBXNativeTarget "PlaypediaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SFYM6B225;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.PlaypediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Playpedia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Playpedia";
+			};
+			name = Debug;
+		};
+		D687968D307B4797004D1F9F /* Release configuration for PBXNativeTarget "PlaypediaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SFYM6B225;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.PlaypediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Playpedia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Playpedia";
+			};
+			name = Release;
+		};
+		D687968F307B4797004D1F9F /* Debug configuration for PBXNativeTarget "PlaypediaUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SFYM6B225;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.PlaypediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Playpedia;
+			};
+			name = Debug;
+		};
+		D6879690307B4797004D1F9F /* Release configuration for PBXNativeTarget "PlaypediaUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SFYM6B225;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.PlaypediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Playpedia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6879664307B4796004D1F9F /* Build configuration list for PBXProject "Playpedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6879686307B4797004D1F9F /* Debug configuration for PBXProject "Playpedia" */,
+				D6879687307B4797004D1F9F /* Release configuration for PBXProject "Playpedia" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D6879688307B4797004D1F9F /* Build configuration list for PBXNativeTarget "Playpedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6879689307B4797004D1F9F /* Debug configuration for PBXNativeTarget "Playpedia" */,
+				D687968A307B4797004D1F9F /* Release configuration for PBXNativeTarget "Playpedia" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D687968B307B4797004D1F9F /* Build configuration list for PBXNativeTarget "PlaypediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D687968C307B4797004D1F9F /* Debug configuration for PBXNativeTarget "PlaypediaTests" */,
+				D687968D307B4797004D1F9F /* Release configuration for PBXNativeTarget "PlaypediaTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D687968E307B4797004D1F9F /* Build configuration list for PBXNativeTarget "PlaypediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D687968F307B4797004D1F9F /* Debug configuration for PBXNativeTarget "PlaypediaUITests" */,
+				D6879690307B4797004D1F9F /* Release configuration for PBXNativeTarget "PlaypediaUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6879661307B4796004D1F9F /* Project object */;
+	validationLevel = 1;
+}
